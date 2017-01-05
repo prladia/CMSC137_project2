@@ -1,0 +1,21 @@
+body{
+	font-size: 14px;
+	background-image: url('bg.jpg');
+}
+div{
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	width: 650px;
+	padding: 5px 5px 15px 15px;
+	font-family: "Verdana", sans-serif;
+}
+div:hover{
+	opacity: 1;
+}
+h3{
+	font-family: "Times New Roman", serif;
+}
+p{
+	font-size: 11.5px;
+}

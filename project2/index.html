@@ -1,0 +1,140 @@
+<html>
+	
+	<head>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<script src="jscript.js"></script>
+
+	</head>
+
+	<title>Exercise 4: JavaScript</title>
+
+	<body>
+	<div>
+		<form>
+
+			<!--1.-->
+			<h3>Find the minimum number</h3>
+			<p>Enter the first number: 
+			<input name="min1" placeholder="0" maxlength="15" size=15>
+
+			<p>
+			Enter the second number: 
+			<input name="min2" placeholder="0" maxlength="15" size=15>
+
+			<p>
+
+			Click this button to find the minimum
+			<input value="Minimum" type=button onClick=minOf2(this.form)>
+
+			<p>
+
+			<!--2.-->		
+			<h3>Find Minimum Number Out of Five Input</h3>
+			<p>Input number 1:
+			<input name="num1" maxlength="15" size=15>
+			
+			<p>
+			Input number 2:
+			<input name="num2" maxlength="15" size=15>
+			
+			<p>
+			Input number 3:
+			<input name="num3" maxlength="15" size=15>
+			
+			<p>
+			Input number 4:
+			<input name="num4" maxlength="15" size=15>
+
+			<p>
+			Input number 5:
+			<input name="num5" maxlength="15" size=15>
+
+			<p>
+				<input name="findMin"
+						value="Find Minimum"
+						type=button 
+						onClick=minOfFive(this.form)>
+
+			<!--3.-->
+			<p>
+			<h3>Determine if the last letter of the string is vowel</h3>
+			<p>Enter the string: 
+			<input name="str5" placeholder="of length five (5)" maxlength="5" size=15>
+			<p>
+			Click this button to find if the string ends with a vowel
+			<input value="Does string end with a vowel?" type=button onClick=lastLetterIsVowel(this.form)>
+			
+			<p>
+
+			<!--4.-->
+			<h3>Change String</h3>
+
+			<p>
+			Input string to change:
+			<input type="text"
+					name="changeS"
+					placeholder="Ex: laboratory exercises"
+					maxlength="30"
+					size="20">
+			<p>
+				<input name="changeStr"
+						value="Change String"
+						type=button 
+						onClick=changeString(this.form)>
+						
+			<!--5.-->
+			<p>
+			<h3>Find the total of [5, 6, 7, 8, 9]</h3>
+			<p>
+			Click this button to compute the total
+			<input value="Total" type=button onClick="total()">
+			
+			<p>
+			<h3>Find the average of [10, 20, 30, 40, 50]</h3>
+			<p>
+			Click this button to compute the total
+			<input value="Average" type=button onClick="average()">
+			
+			<p>
+			
+
+			<!--6.-->
+			<h3>Translate a Sentence</h3>
+			<p>Input string to translate:
+			<input type="text"
+					name="translatorFA"
+					placeholder="Ex: nice"
+					maxlength="30"
+					size=20>
+			<p>
+				<input name="translateStr"
+						value="Translator"
+						type=button 
+						onClick=changeString1(this.form)>
+
+			<!--7.-->
+			<p>
+			<h3>Find the shortest string in ["ok", "hehehe", "hello", "hey"]</h3>
+			<p>
+			Click this button to find the shortest string
+			<input value="Shortest" type=button onClick=findShortestWord()>
+			<p>
+
+			<!--8.-->
+			<h3>Frequency Listing of the Digits</h3>
+			<p>Input string of digits:
+			<input type="text"
+					name="frequency"
+					placeholder="Ex: 12113566888893551."
+					maxlength="30"
+					size=20>
+			<p>
+				<input name="digitFreq"
+						value="FrequencyDigit"
+						type=button 
+						onClick=digitFrequency(this.form)>
+			
+		</form>
+	</div>
+	</body>
+</html>
